@@ -3,10 +3,15 @@
 
 Requests wrapper for API testing
 
+## Install:
 
-## Usage
+```bash
+pip install wrapapi
+```
 
-### conftest
+## Usage:
+
+### conftest:
 conftest.py
 ```python
 import pytest
@@ -49,7 +54,7 @@ def test_main_item(app):
 
 ```
 
-### TestCase
+### TestCase:
 
 with TestSuite
 ```python
@@ -68,7 +73,7 @@ class TestExample(TestSuite):
 
 ```
 
-### AssertionErrors
+### AssertionErrors:
 If we have any errors, raise exception with full request data:
 ```bash
 E           AssertionError: 

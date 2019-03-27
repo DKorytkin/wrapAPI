@@ -53,6 +53,7 @@ docs/_build/
 
 # Environments
 wrapapi_venv/
+venv/
 
 # mypy
 .mypy_cache/
